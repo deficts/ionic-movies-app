@@ -24,3 +24,22 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+    --ion-color-peach: #e87373;
+    --ion-color-peach-rgb: 232,115,115;
+    --ion-color-peach-contrast: #000000;
+    --ion-color-peach-contrast-rgb: 0,0,0;
+    --ion-color-peach-shade: #cc6565;
+    --ion-color-peach-tint: #ea8181;
+  }
+  
+  .ion-color-peach {
+    --ion-color-base: var(--ion-color-peach);
+    --ion-color-base-rgb: var(--ion-color-peach-rgb);
+    --ion-color-contrast: var(--ion-color-peach-contrast);
+    --ion-color-contrast-rgb: var(--ion-color-peach-contrast-rgb);
+    --ion-color-shade: var(--ion-color-peach-shade);
+    --ion-color-tint: var(--ion-color-peach-tint);
+  }
+  
